@@ -14,7 +14,7 @@ btn.onclick = function () {
   total++;
   if (answerString.length == 0) {
     alert("Invalid input");
-  } else if (answerString == "rgb(57, 62, 70)".toLowerCase().trim()) {
+  } else if (answerString == "rgb(57,62,70)".toLowerCase().trim()) {
     ok = true;
     correct++;
   } else {

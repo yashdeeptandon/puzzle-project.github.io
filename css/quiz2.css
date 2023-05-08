@@ -1,0 +1,33 @@
+body {
+  background: rgb(57, 62, 70);
+}
+.container {
+  margin: 60px;
+  color: rgb(57, 62, 70);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  color: white;
+  border: 2px solid rgb(255, 46, 99);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.504);
+  transition: all 0.6s ease;
+  cursor: pointer;
+}
+
+p {
+  font-size: 2rem;
+}
+
+ul {
+  margin: 10px;
+  padding: 10px;
+  display: block;
+}
+ul li a {
+  font-size: 1.5rem;
+}

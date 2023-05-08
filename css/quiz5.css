@@ -1,0 +1,30 @@
+body {
+    background: rgb(37, 42, 52);
+}
+
+#nav{
+    background-color: rgb(0, 173, 181);
+    color: black;
+}
+
+ul {
+    margin-left: 100px;
+}
+
+ul li a {
+    font-size: 1.3rem;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+}
+
+.riddle-2{
+    text-align: center;
+    margin-top: 20px;
+}
+

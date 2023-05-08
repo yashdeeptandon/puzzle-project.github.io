@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navbar CSS */
+.navbar {
+  background-color: rgb(8, 217, 214);
+  padding: 5px;
+  color: rgb(37, 42, 52);
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+.heading-primary {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.heading-secondary {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 10px 10px 0px;
+}
+
+.ans-input {
+  width: 200px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  color: rgb(255, 46, 99);
+}
+
+.black {
+  color: black;
+}
+
+.pink {
+  color: rgb(255, 46, 99);
+}
+
+.transparent {
+  width: 200px;
+  color: white;
+}
+
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}
+.white {
+  color: white;
+}
+.submit-section input {
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: rgb(37, 42, 52);
+  color: rgb(8, 217, 214);
+  padding: 10px 43px;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 1s ease;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(8, 217, 214);
+  color: rgb(37, 42, 52);
+  transition: all 1s ease;
+  border-color: rgb(255, 46, 99);
+}

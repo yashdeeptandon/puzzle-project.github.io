@@ -4,7 +4,7 @@ window.onload = async () => {
   const endBtn = document.getElementById("end-btn");
 
   endBtn.onclick = function () {
-    window.location.href = "/Project-Puzzle/index.html";
+    window.location.href = "index.html";
   };
 
   obj.on("value", (snapshot) => {

@@ -22,8 +22,8 @@ function submitForm(e) {
   var email = document.getElementById("email").value.toString().trim();
   var password = document.getElementById("password").value.toString().trim();
 
-  if (email == "admin@admin.com") {
-    if (password == "adminpass") {
+  if (email == "yashdeeptandon007@gmail.com") {
+    if (password == "123456") {
       window.location.href = "admin.html";
     } else {
       alert("wrong password");

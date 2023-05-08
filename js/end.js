@@ -1,6 +1,6 @@
 let btn = document.getElementById("claimBtn");
 btn.onclick = function () {
-  document.querySelector("img").src = "assets/picmix.com_1305088.gif";
+  document.querySelector("img").src = "assets/gift.jpg";
 
   setTimeout(function () {
     firebase

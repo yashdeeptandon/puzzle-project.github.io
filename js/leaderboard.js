@@ -1,6 +1,11 @@
 window.onload = async () => {
   let obj = await firebase.database().ref("data");
   let table = document.getElementById("table");
+  const endBtn = document.getElementById("end-btn");
+
+  endBtn.onclick = function () {
+    window.location.href = "index.html";
+  };
 
   obj.on("value", (snapshot) => {
     let data = snapshot.val();
@@ -11,7 +16,7 @@ window.onload = async () => {
       var td = document.createElement("td");
       td.innerHTML = uid;
 
-      newTr.appendChild(td);
+      //   newTr.appendChild(td);
 
       currUserObj.on("value", (snapshot) => {
         let currUserData = snapshot.val();
@@ -22,12 +27,13 @@ window.onload = async () => {
 
         var td = document.createElement("td");
         td.innerHTML = currUserData.email;
-        newTr.appendChild(td);
+        // newTr.appendChild(td);
 
         let count = 0;
 
         for (clue in currUserData) {
           if (count == 6) {
+            // console.log()
             continue;
           }
           let clueDataObj = firebase.database().ref("data/" + uid + "/" + clue);
